@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ua.oleh.entities.ProductCharacteristics" table="product_characteristics" schema="web_task">
+        <id name="id" column="id"/>
+        <property name="productName" column="product_name"/>
+        <property name="productCharacteristics" column="product_characteristics"/>
+        <property name="price" column="price"/>
+        <property name="mark" column="mark"/>
+        <property name="model" column="model"/>
+        <property name="productClass" column="product_class"/>
+        <property name="productType" column="product_type"/>
+        <property name="cpuName" column="cpu_name"/>
+        <property name="gpuName" column="gpu_name"/>
+        <property name="ramName" column="ram_name"/>
+        <property name="romName" column="rom_name"/>
+        <property name="ramModel" column="ram_model"/>
+        <property name="romModel" column="rom_model"/>
+        <property name="ramSize" column="ram_size"/>
+        <property name="romSize" column="rom_size"/>
+        <property name="gabarites" column="gabarites"/>
+    </class>
+</hibernate-mapping>
