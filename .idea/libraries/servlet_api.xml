@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="servlet-api">
-    <CLASSES />
-    <JAVADOC>
-      <root url="https://mvnrepository.com/artifact/org.springframework/spring-webmvc" />
-    </JAVADOC>
-    <SOURCES />
-  </library>
-</component>
